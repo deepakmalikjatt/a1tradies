@@ -1,0 +1,149 @@
+/*
+Template Name:Factory
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+
+/********************* services_main ****************/
+.services_main_1 h2{ 
+ font-size:80px;
+ color: #fff;
+ text-align: center;
+ padding-top: 180px;
+ font-weight: bold;
+ }
+.services_main_2{ 
+ background: #f6c405; 
+ }
+/********************* services_main_end ****************/
+/********************* services ****************/
+#services{ 
+ padding-top: 30px;
+ padding-bottom: 150px;
+ }
+.services_3 img{  
+ position: relative;
+ }
+.services_4{  
+ position: absolute;
+ box-shadow: 0 0 12px 0 rgba(32,46,60,.06);
+ top:60%;
+ background-color: white;
+ padding: 34px 50px 30px;
+ width: 88%;
+ left: 6%;
+ border-bottom: 3px solid #cea817;
+ text-align:center;
+ }
+.services_4 h4{  
+ color: #022775;
+ padding-bottom: 4px;
+ font-weight: bold;
+ }
+.services_4:hover h4{  
+ color:#fff;
+ }
+.services_4:hover p{  
+ color:#fff;
+ }
+.services_4:hover a{  
+ color:#fff;
+ }
+.services_4 p{  
+ padding:0px;
+ margin:0px;
+ padding-top:7px;
+ padding-bottom:10px;
+ color: #8e8686;
+ }
+.services_4 a{  
+ color: #022775;
+ font-size:18px;
+ }
+.services_4 i{  
+ padding-left: 5px;
+ vertical-align: text-top;
+ }
+.services_4:hover{ 
+ background-color: #f6c405;
+ }
+.services_2{ 
+ padding-top:8px;
+ }
+.services_6{ 
+ padding-top:150px;
+ }
+/********************* services_end ****************/
+
+
+
+
+
+
+
+
+@media screen and (max-width : 767px){
+.services_main_1 h2 {
+ padding-top: 30px;
+ padding-bottom: 15px;
+ font-size: 55px;
+}
+.services_4 {
+ position: static;
+ width: 100%;
+ margin-bottom: 10px;
+}
+.services_6 {
+ padding-top: 30px;
+}
+#services {
+ padding-top: 30px;
+ padding-bottom: 30px;
+ text-align: center;
+}
+}
+
+
+@media (min-width:470px) and (max-width:767px) {
+
+}
+ 
+ 
+@media (min-width:768px) and (max-width:961px) {
+.services_main_1 h2 {
+ font-size: 50px;
+ padding-top: 110px;
+}
+.services_4 h4 {
+ font-size: 19px;
+}
+.services_4 p {
+ font-size: 15px;
+}
+.services_4 {
+ padding: 20px 20px 20px;;
+}
+} 
+
+ 
+@media (min-width:962px) and (max-width:1200px) {
+.services_main_1 h2 {
+ font-size: 50px;
+ padding-top: 130px;
+}
+.services_4 h4 {
+ font-size: 19px;
+}
+.services_4 p {
+ font-size: 15px;
+}
+.services_4 {
+ padding: 20px 20px 20px;;
+}
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+
+}

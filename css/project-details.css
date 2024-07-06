@@ -1,0 +1,109 @@
+/*
+Template Name:Factory
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+
+/********************* project_inner ****************/
+.project_inner_1 h2{ 
+ font-size:80px;
+ color: #fff;
+ text-align: center;
+ padding-top: 160px;
+ font-weight: bold;
+ }
+.project_inner_2{ 
+ background: #f6c405; 
+ }
+/********************* project_inner_end ****************/
+/********************* project_details ****************/
+#project_details{ 
+ padding-top:30px;
+ padding-bottom:30px;
+ }
+.project_details_2 h2{ 
+ padding-top:15px;
+ padding-bottom:5px;
+ }
+.project_details_2 p{ 
+ padding-bottom:0px;
+ }
+.project_details_5 p{
+ padding-bottom:0px;	
+ }
+.project_details_4{
+ background-color:#f1f1f1;
+ padding: 10px 10px 10px 10px;
+ }
+.project_details_3{
+ background-color:#f1f1f1;
+ padding: 20px 10px 10px 10px;
+ }
+.project_details_6{ 
+ background-color:#f1f1f1;
+ padding: 25px 10px 10px 10px;
+ margin-top:10px;
+ }
+.project_details_7{ 
+ margin-top:10px;
+ }
+/********************* project_details_end ****************/
+
+
+
+
+
+
+
+
+@media screen and (max-width : 767px){
+.project_inner_1 h2 {
+ font-size: 55px;
+ padding-top: 30px;
+ padding-bottom: 15px;
+}
+#project_details {
+ padding-top: 30px;
+ padding-bottom: 30px;
+ text-align: center;
+}
+}
+
+
+@media (min-width:470px) and (max-width:767px) {
+
+}
+ 
+ 
+@media (min-width:768px) and (max-width:961px) {
+.project_inner_1 h2 {
+ font-size: 50px;
+ padding-top: 80px;
+}
+.project_details_3 h2{ 
+ font-size: 26px;
+}
+.project_details_5 p {
+ font-size: 17px;
+}
+} 
+
+ 
+@media (min-width:962px) and (max-width:1200px) {
+.project_inner_1 h2 {
+ font-size: 50px;
+ padding-top:100px;
+}
+.project_details_3 h2{ 
+ font-size: 26px;
+}
+.project_details_5 p {
+ font-size: 17px;
+}
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+
+}

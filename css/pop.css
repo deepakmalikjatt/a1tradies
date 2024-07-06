@@ -1,0 +1,70 @@
+.popup{
+    width: 50%;
+    background: #000000;
+border-radius: 70px;
+position: absolute;
+top: 0%;
+left: 50%;
+transform: translate(-50%,-50%)scale(0.1);
+text-align: center;
+padding: 0 30px 30px;
+color: rgb(255, 0, 0);
+visibility: hidden;
+transition: transform 0.4s,top 0.4s;
+
+}
+
+.open-popup{
+
+visibility: visible;
+top: 50%;
+transform: translate(-50%,-50%);
+}
+
+.popup button{
+width: 200px;
+margin-top: 10px;
+padding: 10px 0;
+background: #6fd649;
+color: #0c08e4;
+border: none;
+border-radius: 70px;
+font-size: 18px;
+border-radius: 15px;
+cursor: pointer;
+box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.button {
+    background-color: #04AA6D; /* Green */
+    color: rgb(17, 0, 255);
+   text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    padding: 10px 60px;
+    background: #c91212;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 30px;
+   
+
+  }
+  
+  .button1 {
+    background-color: rgb(43, 0, 236); 
+    color: rgb(253, 253, 253); 
+    border: 2px solid #0f04aa;
+  }
+  
+  .button1:hover {
+    background-color: #aa0444;
+    color: white;
+  }
+  
